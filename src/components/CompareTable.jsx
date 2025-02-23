@@ -13,44 +13,44 @@ const CompareTable = () => {
 
       {/* Filters Section */}
       <div className=" flex flex-col md:flex-row justify-center items-center gap-28 mb-14">
-  {/* Account Size Dropdown */}
-  <div className="mt-6 flex flex-col items-start space-y-5 ">
-    <label className="text-white text-xs font-semibold">Account Size</label>
-    <select className="bg-[#011F3A] text-white px-4 py-3 rounded-lg border border-white/10 w-56 md:w-64">
-      <option>10k</option>
-      <option>50k</option>
-      <option>100k</option>
-    </select>
-  </div>
+        {/* Account Size Dropdown */}
+        <div className="mt-6 flex flex-col items-start space-y-5 ">
+          <label className="text-white text-xs font-semibold">Account Size</label>
+          <select className="bg-[#011F3A] text-white px-4 py-3 rounded-lg border border-white/10 w-56 md:w-64">
+            <option>10k</option>
+            <option>50k</option>
+            <option>100k</option>
+          </select>
+        </div>
 
-  {/* Number of Steps Dropdown */}
-  <div className=" mt-6 flex flex-col items-start space-y-5">
-    <label className="text-white text-xs font-semibold ">Number of Steps</label>
-    <select className="bg-[#011F3A] text-white px-4 py-3 rounded-lg border border-white/10 w-56 md:w-64">
-      <option>1 Step</option>
-      <option>2 Steps</option>
-    </select>
-  </div>
+        {/* Number of Steps Dropdown */}
+        <div className=" mt-6 flex flex-col items-start space-y-5">
+          <label className="text-white text-xs font-semibold ">Number of Steps</label>
+          <select className="bg-[#011F3A] text-white px-4 py-3 rounded-lg border border-white/10 w-56 md:w-64">
+            <option>1 Step</option>
+            <option>2 Steps</option>
+          </select>
+        </div>
 
-  {/* Price Range Slider */}
-  <div className="mt-6 flex flex-col items-start space-y-5 "> 
-    <label className="text-white text-xs font-semibold">Price Range</label>
-    <div className="flex flex-col items-center">
-      <input
-        type="range"
-        min="200"
-        max="259"
-        value={priceRange}
-        onChange={(e) => setPriceRange(e.target.value)}
-        className="w-56 md:w-64"
-      />
-      <div className="flex justify-between w-56 md:w-64 text-sm mt-2">
-        <span>$200</span>
-        <span>${priceRange}</span>
+        {/* Price Range Slider */}
+        <div className="mt-6 flex flex-col items-start space-y-5 ">
+          <label className="text-white text-xs font-semibold">Price Range</label>
+          <div className="flex flex-col items-center">
+            <input
+              type="range"
+              min="200"
+              max="259"
+              value={priceRange}
+              onChange={(e) => setPriceRange(e.target.value)}
+              className="w-56 md:w-64"
+            />
+            <div className="flex justify-between w-56 md:w-64 text-sm mt-2">
+              <span>$200</span>
+              <span>${priceRange}</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
       {/* Comparison Table */}
       <div className="overflow-x-auto ">

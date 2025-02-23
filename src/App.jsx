@@ -20,13 +20,13 @@ function App() {
         <div className="pt-32">
           <CardSection />
         </div>
-        
+
         <div className="pt-0">
-        <CompareTable/>
+          <CompareTable />
         </div>
-        <ReviewCarousel/>
-        <MatchTest/>
-        <Footer/>
+        <ReviewCarousel />
+        <MatchTest />
+        <Footer />
       </div>
     </>
   )

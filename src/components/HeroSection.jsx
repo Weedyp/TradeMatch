@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <div className="text-white text-center flex flex-col items-center justify-center mt-10 lg:mt-20 px-4">
-      
+
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-medium tracking-wider leading-[1.3]">
         Find the Best Prop <br /> Trading Firm for You
       </h1>
@@ -13,8 +13,8 @@ const HeroSection = () => {
       </p>
 
       <p className="mt-3 text-gray-300 max-w-2xl text-base sm:text-lg leading-loose tracking-widest leading-[1.8]">
-        Navigating the world of <span className="font-bold">prop trading firms</span> can be overwhelming. 
-        That’s why we’ve built the ultimate <span className="font-bold">comparison platform</span>—so you can 
+        Navigating the world of <span className="font-bold">prop trading firms</span> can be overwhelming.
+        That’s why we’ve built the ultimate <span className="font-bold">comparison platform</span>—so you can
         find the firm that best fits your trading style, goals, and risk appetite.
       </p>
 
